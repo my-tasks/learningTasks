@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
+	bean-discovery-mode="annotated" version="1.1">
+
+<!-- 	<alternatives> <class>com.datalex.tdp.rest.v2.transport.XmlTransport</class> </alternatives> -->
+
+<!-- 	<decorators> -->
+<!-- 		<class>com.datalex.tdp.rest.v2.transport.StubTransport</class> -->
+<!-- 	</decorators> -->
+
+<!-- 	<interceptors> -->
+<!-- 		<class>com.datalex.tdp.rest.v2.resource.interceptor.PointOfSaleInterceptor</class> -->
+<!-- 		<class>com.datalex.tdp.rest.v2.resource.interceptor.LanguageInterceptor</class> -->
+<!-- 	</interceptors> -->
+
+<!-- 	<scan> -->
+<!-- 		<exclude name="com.datalex.tdp.rest.v2.schema.**"></exclude> -->
+<!-- 		<exclude name="com.datalex.tdp.rest.v2.resource.ResourceException"></exclude> -->
+<!-- 	</scan> -->
+</beans>
